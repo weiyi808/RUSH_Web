@@ -1,0 +1,7 @@
+baseURL = "https://www.xyzresearch.com"
+title = "XYZ Research"
+subtitle = "CVPR 2025: 计算机视觉新方法"
+theme = "cyberpunk-theme"
+
+[params]
+    subtitle = "CVPR 2025 | 提出一种创新的算法，通过深度学习提高计算机视觉的精度"
