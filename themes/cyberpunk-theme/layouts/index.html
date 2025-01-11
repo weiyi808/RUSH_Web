@@ -5,21 +5,9 @@
         <div class="col-md-8 col-lg-6">
             <div class="card card-custom">
                 <div class="card-body">
-                    <h3>研究简介</h3>
-                    <p>在这篇论文中，我们提出了一种新的计算机视觉算法，旨在解决深度学习在图像识别中的一些挑战，并在多个基准数据集上取得了优异的性能。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="container my-5">
-    <div class="row justify-content-center">
-        <!-- 使用 col-md-12 来让卡片在中等及更大的屏幕上占满宽度 -->
-        <div class="col-12 col-md-8 col-lg-6">
-            <div class="card card-custom">
-                <div class="card-body">
-                    <h3>研究简介</h3>
-                    <p>在这篇论文中，我们提出了一种新的计算机视觉算法，旨在解决深度学习在图像识别中的一些挑战，并在多个基准数据集上取得了优异的性能。</p>
+                    <h3>Research Introduction</h3>
+                    <p>Regional exploration has always faced many challenges in various applications. Although significant progress has been made in small-scale exploration tasks, there are still some problems in large-scale scene exploration, especially due to insufficient viewpoint quality and insufficient attention to boundary areas, which have caused many difficulties. Specifically, the problems faced by large-scale exploration include excessively long flight paths and inefficient utilization of boundary information.
+                        In response to these issues, this article proposes an optimization method based on regional exploration and global loss function, aiming to effectively utilize boundary information. The specific method is as follows: Firstly, we determine safe areas near the environmental boundaries and generate Gaussian distribution viewpoints within these areas. Then, the exploration area is divided into multiple sub areas, and the priority of each area is calculated based on the traversal order to determine the key areas for exploration. In addition, we balance the weights between different exploration areas through a boundary gain mechanism, further reducing the phenomenon of drone backtracking.</p>
                 </div>
             </div>
         </div>
@@ -32,14 +20,19 @@
         <div class="col-md-8 col-lg-6">
             <div class="card card-custom">
                 <div class="card-body">
-                    <h3>实验结果</h3>
-                    <p>我们的实验结果表明，我们的方法在多个基准数据集上取得了显著的性能提升。</p>
-                    <img src="assets/results.jpg" alt="实验结果" class="img-fluid img-fluid-custom">
+                    <h3>Results</h3>
+                    <p>Our experimental results indicate that our method has achieved significant performance improvements on multiple benchmark datasets.</p>
+                    <div class="image-gallery">
+                        <img src="assets/exp1-2.png" alt="Results" class="img-fluid img-fluid-custom">
+                        <img src="assets/exp2-2.png" alt="Results" class="img-fluid img-fluid-custom">
+                        <img src="assets/exp3-2.png" alt="Results" class="img-fluid img-fluid-custom">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- 视频演示部分 -->
 <section class="container my-5">
@@ -47,10 +40,20 @@
         <div class="col-md-8 col-lg-6">
             <div class="card card-custom">
                 <div class="card-body">
-                    <h3>方法演示</h3>
-                    <p>以下是我们方法的演示视频，展示了算法如何在实时场景中进行应用。</p>
-                    <div class="embed-responsive embed-responsive-16by9">
+                    <h3>Video Display</h3>
+                    <p>The following is a demonstration video of our method, demonstrating how the algorithm can be applied in real-time scenarios.</p>
+                    <!-- <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz1234567" allowfullscreen></iframe>
+                    </div> -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <video class="embed-responsive-item" controls>
+                            <source src="media/rushsc1_t.mp4" type="video/mp4">
+                            <!-- 如果需要支持更多格式，您可以添加其他格式 -->
+                            <!-- <source src="assets/video/your-video.webm" type="video/webm">
+                            <source src="assets/video/your-video.ogv" type="video/ogg"> -->
+                            <!-- 如果浏览器不支持视频元素，则显示此文本 -->
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </div>
             </div>
@@ -64,9 +67,9 @@
         <div class="col-md-8 col-lg-6">
             <div class="card card-custom">
                 <div class="card-body text-center">
-                    <h3>下载论文</h3>
-                    <p>点击以下按钮下载论文的 PDF 版本：</p>
-                    <a href="papers/paper.pdf" class="btn btn-custom">下载 PDF</a>
+                    <h3>Download the paper(Pending )</h3>
+                    <p>Click the following button to download the PDF version of the paper：</p>
+                    <a href="papers/paper.pdf" class="btn btn-custom">Download PDF</a>
                 </div>
             </div>
         </div>
@@ -74,7 +77,7 @@
 </section>
 
 <!-- 代码链接部分 -->
-<section class="container my-5">
+<!-- <section class="container my-5">
     <div class="row justify-content-center">
         <div class="col-md-8 col-lg-6">
             <div class="card card-custom">
@@ -86,5 +89,5 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 {{ end }}

@@ -1,7 +1,7 @@
-baseURL = "https://www.xyzresearch.com"
-title = "XYZ Research"
-subtitle = "CVPR 2025: 计算机视觉新方法"
+baseURL = "https://weiyi808.github.io/RUSH_Web/"
+title = "RUSH Exploration"
 theme = "cyberpunk-theme"
 
 [params]
-    subtitle = "CVPR 2025 | 提出一种创新的算法，通过深度学习提高计算机视觉的精度"
+#    subtitle = " 2025 | 提出一种创新的算法，通过快速生成高质量视点，提高无人机自主探索效率"
+subtitle = " 2025 | Propose an innovative algorithm to improve the efficiency of unmanned aerial vehicle autonomous exploration by quickly generating high-quality viewpoints"

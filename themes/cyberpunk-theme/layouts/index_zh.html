@@ -1,0 +1,78 @@
+{{ define "main" }}
+<!-- 主体部分 -->
+<section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-custom">
+                <div class="card-body">
+                    <h3>研究简介</h3>
+                    <p>在各类应用中，区域勘探一直面临诸多挑战。尽管在小规模勘探任务方面已有显著进展，但在大规模场景探索中仍存在一些问题，尤其是由于视点质量不足以及对边界区域关注不够，造成了许多困难。具体而言，大规模勘探面临的问题包括过长的飞行路径和边界信息的低效利用。
+                        针对这些问题，本文提出了一种基于区域勘探与全局损失函数的优化方法，旨在有效利用边界信息。具体方法为：首先，我们在环境边界附近确定安全区域，并在这些区域内生成高斯分布视点。然后，勘探区域被划分为多个子区域，并依据遍历顺序计算出各区域的优先级，以确定勘探的重点领域。此外，我们通过边界增益机制平衡不同勘探区域之间的权重，进一步减少无人机的回溯现象。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 实验结果部分 -->
+<section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-custom">
+                <div class="card-body">
+                    <h3>实验结果</h3>
+                    <p>我们的实验结果表明，我们的方法在多个基准数据集上取得了显著的性能提升。</p>
+                    <img src="assets/results.jpg" alt="实验结果" class="img-fluid img-fluid-custom">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 视频演示部分 -->
+<section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-custom">
+                <div class="card-body">
+                    <h3>方法演示</h3>
+                    <p>以下是我们方法的演示视频，展示了算法如何在实时场景中进行应用。</p>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/xyz1234567" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 下载论文部分 -->
+<section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-custom">
+                <div class="card-body text-center">
+                    <h3>Download the paper(Pending )</h3>
+                    <p>Click the following button to download the PDF version of the paper：</p>
+                    <a href="papers/paper.pdf" class="btn btn-custom">Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 代码链接部分 -->
+<!-- <section class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card card-custom">
+                <div class="card-body text-center">
+                    <h3>代码与实现</h3>
+                    <p>我们的代码和实验数据已经开源，您可以在 GitHub 上访问：</p>
+                    <a href="https://github.com/xyz/paper-code" class="btn btn-custom" target="_blank">访问 GitHub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+{{ end }}

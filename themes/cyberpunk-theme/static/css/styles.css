@@ -132,3 +132,24 @@ footer a:hover {
 .card-body .btn-custom {
     width: 40%;
 }
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* 图片之间的间距 */
+    justify-content: center; /* 居中对齐图片 */
+}
+
+/* 自定义图片大小 */
+.img-fluid-custom {
+    max-width: 30%; /* 图片最多占据容器宽度 */
+    height: auto; /* 自动调整高度，保持宽高比 */
+    max-height: 300px; /* 限制图片的最大高度 */
+}
+
+/* 小屏幕上调整图片大小 */
+@media (max-width: 768px) {
+    .img-fluid-custom {
+        max-height: 200px; /* 在小屏幕下，限制图片的最大高度 */
+    }
+}
