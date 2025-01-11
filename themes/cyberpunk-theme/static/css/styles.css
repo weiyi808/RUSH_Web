@@ -142,7 +142,7 @@ footer a:hover {
 
 /* 自定义图片大小 */
 .img-fluid-custom {
-    max-width: 30%; /* 图片最多占据容器宽度 */
+    max-width: 20%; /* 图片最多占据容器宽度 */
     height: auto; /* 自动调整高度，保持宽高比 */
     max-height: 300px; /* 限制图片的最大高度 */
 }
